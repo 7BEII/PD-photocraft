@@ -5,6 +5,8 @@ description: Assemble generated PNGs into structured editable layered PSDs, iter
 
 # PD-photocraft Agent Workflow
 
+For layer movement and exporting individual top-level PSD groups to JPG/PNG, use the project skill `skills/psd-layer-export/SKILL.md`.
+
 Use `pd-automation/pd_photocraft.py` whenever the user asks for:
 - **"给我可编辑 PSD" / assembling generated PNGs into a clean layered PSD**
 - **Iterative edits on the SAME PSD** (repositioning layers or groups, modifying the `前景` group, swapping PNG assets without rebuilding, tweaking opacity/blend/adjustments)
