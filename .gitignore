@@ -16,3 +16,9 @@ __pycache__/
 /.nightly-tools
 /.nightly-input
 /craft-i18n
+
+# PD-photocraft local runtime binaries, archives, and control tokens
+/photocraft-*-portable*/
+/photocraft-*.zip
+/.pd-runtime/
+

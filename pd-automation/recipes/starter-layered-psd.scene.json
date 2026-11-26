@@ -1,0 +1,72 @@
+{
+  "name": "starter-poster",
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "background": "transparent"
+  },
+  "groups": [
+    {
+      "name": "背景",
+      "layers": [
+        {
+          "type": "image",
+          "name": "底图",
+          "asset": "assets/bg.png",
+          "dx": 0,
+          "dy": 0,
+          "opacity": 100
+        }
+      ]
+    },
+    {
+      "name": "前景",
+      "layers": [
+        {
+          "type": "image",
+          "name": "主角",
+          "asset": "assets/hero.png",
+          "dx": 0,
+          "dy": 0,
+          "opacity": 100
+        }
+      ]
+    },
+    {
+      "name": "文字",
+      "layers": [
+        {
+          "type": "text",
+          "name": "主标题",
+          "text": "PD-PHOTOCRAFT",
+          "x": 120,
+          "y": 160,
+          "size": 72,
+          "color": "#ffffff"
+        }
+      ]
+    },
+    {
+      "name": "调色",
+      "layers": [
+        {
+          "type": "adjustment",
+          "name": "电影曲线",
+          "kind": "curves",
+          "params": {
+            "points": [[0, 0], [64, 52], [192, 206], [255, 255]]
+          }
+        },
+        {
+          "type": "adjustment",
+          "name": "自然饱和度",
+          "kind": "vibrance",
+          "params": {
+            "vibrance": 20,
+            "saturation": 5
+          }
+        }
+      ]
+    }
+  ]
+}
