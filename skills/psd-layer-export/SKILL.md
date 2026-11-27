@@ -5,6 +5,8 @@ description: 使用 PhotoCraft 调整已有 PSD 的图层位置，并将保存�
 
 # PSD 图层调整与编组导出
 
+> **统一设计技能正本指向（2026-11-27）**：本模块脚本（`photocraft_psd.py`、`export_psd_groups.py`）与新增单层提取工具（`extract_psd_layers.py`）已同步收口至统一设计技能库 **`C:\pandy\github\skill\super-designer\skills\photocraft-studio\SKILL.md`**（总入口：`C:\pandy\github\skill\super-designer\AGENTS.md`）。本目录原样保留不删除，后续新特性优先在 `super-designer` 维护。
+
 本 Skill 的脚本正本位于 PhotoCraft 项目 `skills/psd-layer-export/scripts/`，不依赖 MCP。`photocraft_psd.py` 调用本机 PhotoCraft CLI；`export_psd_groups.py` 使用 Python 的 `psd-tools` 和 Pillow 读取 PSD 合成，不修改源文件。
 
 ## 调整图层

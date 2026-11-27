@@ -5,6 +5,8 @@ description: Assemble generated PNGs into structured editable layered PSDs, iter
 
 # PD-photocraft Agent Workflow
 
+> **统一设计技能正本指向（2026-11-27）**：PhotoCraft 全套 Skill（含 Live Chat 微调、单图层提取、按组导出、AI 单层替换与扩图）已收口至统一设计技能库 **`C:\pandy\github\skill\super-designer`**（总入口：`AGENTS.md`，本模块：`skills/photocraft-studio/SKILL.md`）。本软件目录下的二进制与旧文档原位保留不删除，Agent 优先从 `super-designer` 调用最新维护脚本。
+
 For layer movement and exporting individual top-level PSD groups to JPG/PNG, use the project skill `skills/psd-layer-export/SKILL.md`.
 
 Use `pd-automation/pd_photocraft.py` whenever the user asks for:
